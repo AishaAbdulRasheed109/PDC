@@ -1,8 +1,8 @@
-Parallel and Distributed Computing Course Tasks
+**Parallel and Distributed Computing Course Tasks**
 
 This repository contains all the tasks, assignments, and projects completed for the Parallel and Distributed Computing course. It serves as a comprehensive collection of exercises demonstrating concepts, techniques, and implementations learned throughout the course.
 
-Repository Structure
+**Repository Structure**
 
 The repository is organized as follows:
 
@@ -22,7 +22,7 @@ Implementation code (Python)
 
 
 
-Topics Covered
+**Topics Covered**
 
 The tasks in this repository cover core topics in Parallel and Distributed Computing, such as:
 
@@ -38,7 +38,7 @@ Use of barriers, locks, and semaphores
 
 
 
-Clone the repository:
+**Clone the repository:**
 
 git clone https://github.com/your-username/parallel-distributed-computing-tasks.git
 
@@ -55,8 +55,7 @@ Required libraries (check each task folder for requirements.txt)
 
 Compiler or interpreter depending on task language
 
-Notes
-
+**Notes**
 This repository is for educational purposes.
 
 Each task is designed to demonstrate understanding and application of parallel and distributed computing principles.
