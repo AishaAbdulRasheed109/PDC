@@ -2,10 +2,8 @@ from random import randint, randrange
 from threading import Barrier, Thread
 from time import sleep, ctime
 
-# Matrix size
 N = 3
 
-# Barrier for all threads (each for one row)
 result = Barrier(N)
 
 # Random matrices A and B
@@ -14,12 +12,12 @@ B = [[randint(0, 500000) for _ in range(N)] for _ in range(N)]
 C = [[0 for _ in range(N)] for _ in range(N)]
 
 def multiply_row(row):
-    sleep(randrange(1, 4))  # simulate work time
+    sleep(randrange(1, 4)) 
     for j in range(N):
         for k in range(N):
             C[row][j] += A[row][k] * B[k][j]
     print(f"Thread-{row+1} finished row {row} at: {ctime()}")
-    result.wait()  # wait for others at the barrier
+    result.wait()
 
 def main():
     print("Matrix A:")
